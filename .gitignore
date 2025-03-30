@@ -1,0 +1,44 @@
+# 動画ファイル
+*.mp4
+*.mkv
+*.avi
+
+# 音声ファイル
+*.wav
+*.mp3
+*.aac
+
+# 一時ファイル
+temp/
+tmp/
+__pycache__/
+*.pyc
+*.pyo
+
+# 実行ログ
+*.log
+voicevox_log*.txt
+
+# macOS関連
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 環境固有の設定
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 実行ファイルのビルド
+*.exe
+*.out
+*.app
+
+# バックアップファイル
+*~
+*.bak
+
+# 出力済み動画
+output_*.mp4
